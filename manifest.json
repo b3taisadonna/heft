@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Heft",
+  "version": "1.0.0",
+  "description": "Ruhige Notizen mit Markdown, Sofortsuche und Seite merken. Für Quetta, Chrome und Edge.",
+  "action": {
+    "default_title": "Heft öffnen",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "options_page": "app.html",
+  "permissions": ["storage", "activeTab"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H",
+        "mac": "Command+Shift+H"
+      },
+      "description": "Heft öffnen"
+    }
+  }
+}
